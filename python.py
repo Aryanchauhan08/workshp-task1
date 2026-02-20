@@ -138,3 +138,4 @@ def calculate_residual(A, x_hat, b):
     return np.linalg.norm(residual_vector, ord=2) / norm_b
 
 print("hi")
+print("Hi sambit"

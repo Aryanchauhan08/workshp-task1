@@ -136,3 +136,5 @@ def calculate_residual(A, x_hat, b):
     # Compute the residual vector (Ax - b) and its norm
     residual_vector = Ax - b
     return np.linalg.norm(residual_vector, ord=2) / norm_b
+
+print("hi")
